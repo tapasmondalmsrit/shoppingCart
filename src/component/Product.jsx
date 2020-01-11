@@ -28,7 +28,7 @@ class Product extends React.Component {
 
   showInfo() {
     if (this.state.qty > 0) {
-      alert("product is allready to your cart")
+      alert("This product is allready to your cart")
     }
     else {
       this.setState({
@@ -41,6 +41,7 @@ class Product extends React.Component {
 
   render() {
     return (
+
       <div className="product-0-10">
         <div className="row product-row">
           <div className="column1">
