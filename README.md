@@ -1,5 +1,37 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+to get data from api call just replace the componentDidMount() method in producList.js
+
+  componentDidMount() {
+
+
+     fetch('https://cartproduct.free.beeceptor.com/mondal')
+       .then(response => response.json())
+       .then(data => {
+         console.log(data.data);
+         this.setState({ productList: data.data });
+
+       })
+       .catch(err => { console.log(err) })
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:

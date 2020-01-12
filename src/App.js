@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import ProductList from './component/ProductList';
 
 import './App.css';

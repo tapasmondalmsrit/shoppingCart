@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Modal from './Modal/Modal';
 
 class Total extends React.Component {
